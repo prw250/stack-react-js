@@ -2,21 +2,37 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+body {
+  margin: 10px;
+  padding: 10px;
+  border: 4px Solid red;
+  background-color: silver;
+
+  font-family: 'Manjari', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1 {
+  text-align: center;
+  font-size: 64px;
+  color: yellow;
 }
 
-.App-link {
-  color: #09d3ac;
+h3 {
+  Color: green;
+  text-align: center;
 }
+p {
+   text-align: center;
+   color: darkorchid;
+   background-color: whitesmoke;
+}
+
+img{
+  border: 5px Solid blue;
+  display: block;
+  height: 390px;
+  margin: auto;
+}
+
